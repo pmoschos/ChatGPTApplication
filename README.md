@@ -28,7 +28,11 @@ git clone https://github.com/yourusername/ChatGPTApp.git
 ```
 
 2. Open the project in Android Studio.
-3. Build the project and run on an emulator or a physical device.
+3. Insert your Openai API key (MainActivity.java line:221)
+```bash
+headers.put("Authorization", "ENTER_HERE_YOUR_API_KEY");
+```
+4. Build the project and run on an emulator or a physical device.
 
 ## Usage 💡
 
